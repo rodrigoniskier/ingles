@@ -61,7 +61,12 @@ const FlashCard = ({ word, onNext, onPrevious, currentIndex, totalCards }) => {
     {/* Frente do cartão */}
     <div className="absolute inset-0 w-full h-full backface-hidden bg-gradient-to-br from-amber-500 to-orange-600 rounded-xl shadow-lg flex flex-col justify-center items-center text-white p-6">
       <BookOpen className="h-12 w-12 mb-4 opacity-80" />
-      <h2 className="text-3xl font-bold mb-2 text-center">{word.english}</h2>
+      <h2 className="text-3xl font-bold mb-1 text-center">{word.english}</h2>
+      {word.transliteration && (
+        <p className="text-sm italic text-amber-100 mb-1 text-center">
+          {word.transliteration}
+        </p>
+      )}
       <button
         onClick={(e) => {
           e.stopPropagation();
