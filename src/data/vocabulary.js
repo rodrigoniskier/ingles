@@ -5,6 +5,7 @@ export const biblicalVocabulary = [
   {
     english: 'God',
     portuguese: 'Deus',
+    transliteration: 'gód',
     definition: 'O Ser Supremo, Criador e Sustentador de todas as coisas',
     category: 'fundamental',
     frequency: 'very_high',
@@ -16,6 +17,7 @@ export const biblicalVocabulary = [
   {
     english: 'Lord',
     portuguese: 'Senhor',
+    transliteration: 'lórd',
     definition: 'Título de respeito e autoridade, frequentemente usado para Deus',
     category: 'fundamental',
     frequency: 'very_high',
@@ -27,6 +29,7 @@ export const biblicalVocabulary = [
   {
     english: 'Christ',
     portuguese: 'Cristo',
+    transliteration: 'kraist',
     definition: 'O Ungido, título messiânico de Jesus',
     category: 'christology',
     frequency: 'very_high',
@@ -38,6 +41,7 @@ export const biblicalVocabulary = [
   {
     english: 'Spirit',
     portuguese: 'Espírito',
+    transliteration: 'spírit',
     definition: 'Terceira pessoa da Trindade, Espírito Santo',
     category: 'pneumatology',
     frequency: 'very_high',
@@ -49,6 +53,7 @@ export const biblicalVocabulary = [
   {
     english: 'Faith',
     portuguese: 'Fé',
+    transliteration: 'feith',
     definition: 'Confiança e crença em Deus e Suas promessas',
     category: 'soteriology',
     frequency: 'high',
@@ -60,6 +65,7 @@ export const biblicalVocabulary = [
   {
     english: 'Grace',
     portuguese: 'Graça',
+    transliteration: 'grêis',
     definition: 'Favor imerecido de Deus',
     category: 'soteriology',
     frequency: 'high',
@@ -71,6 +77,7 @@ export const biblicalVocabulary = [
   {
     english: 'Salvation',
     portuguese: 'Salvação',
+    transliteration: 'sálveixon',
     definition: 'Libertação do pecado e suas consequências através de Cristo',
     category: 'soteriology',
     frequency: 'high',
@@ -82,6 +89,7 @@ export const biblicalVocabulary = [
   {
     english: 'Righteousness',
     portuguese: 'Justiça/Retidão',
+    transliteration: 'ráitchesnês',
     definition: 'Estado de estar correto diante de Deus',
     category: 'soteriology',
     frequency: 'high',
@@ -93,6 +101,7 @@ export const biblicalVocabulary = [
   {
     english: 'Kingdom',
     portuguese: 'Reino',
+    transliteration: 'kíngdâm',
     definition: 'Domínio e governo de Deus',
     category: 'eschatology',
     frequency: 'high',
@@ -104,6 +113,7 @@ export const biblicalVocabulary = [
   {
     english: 'Covenant',
     portuguese: 'Aliança',
+    transliteration: 'cóvenant',
     definition: 'Acordo solene entre Deus e Seu povo',
     category: 'biblical_theology',
     frequency: 'medium',
@@ -119,6 +129,7 @@ export const reformedVocabulary = [
   {
     english: 'Predestination',
     portuguese: 'Predestinação',
+    transliteration: 'pridéstineixon',
     definition: 'Doutrina de que Deus escolheu eternamente quem seria salvo',
     author: 'Calvin',
     category: 'systematic_theology',
@@ -129,6 +140,7 @@ export const reformedVocabulary = [
   {
     english: 'Election',
     portuguese: 'Eleição',
+    transliteration: 'iléction',
     definition: 'Escolha divina dos salvos antes da fundação do mundo',
     author: 'Calvin',
     category: 'systematic_theology',
@@ -139,6 +151,7 @@ export const reformedVocabulary = [
   {
     english: 'Sovereignty',
     portuguese: 'Soberania',
+    transliteration: 'sóvren-ti',
     definition: 'Supremo domínio e autoridade de Deus sobre todas as coisas',
     author: 'Various Reformed',
     category: 'theology_proper',
@@ -149,6 +162,7 @@ export const reformedVocabulary = [
   {
     english: 'Providence',
     portuguese: 'Providência',
+    transliteration: 'próvidens',
     definition: 'Governo e cuidado contínuo de Deus sobre a criação',
     author: 'Calvin',
     category: 'theology_proper',
@@ -159,6 +173,7 @@ export const reformedVocabulary = [
   {
     english: 'Perseverance',
     portuguese: 'Perseverança',
+    transliteration: 'persivêrans',
     definition: 'Doutrina de que os eleitos perseverarão na fé até o fim',
     author: 'Reformed Tradition',
     category: 'soteriology',
@@ -173,6 +188,7 @@ export const theologicalTerms = [
   {
     english: 'Justification',
     portuguese: 'Justificação',
+    transliteration: 'djustifikeishan',
     definition: 'Ato judicial de Deus declarando o pecador justo',
     category: 'soteriology',
     level: 'intermediate'
@@ -180,6 +196,7 @@ export const theologicalTerms = [
   {
     english: 'Sanctification',
     portuguese: 'Santificação',
+    transliteration: 'sánktifikeishan',
     definition: 'Processo de tornar-se santo, separado para Deus',
     category: 'soteriology',
     level: 'intermediate'
@@ -187,6 +204,7 @@ export const theologicalTerms = [
   {
     english: 'Regeneration',
     portuguese: 'Regeneração',
+    transliteration: 'ridjenerêixon',
     definition: 'Novo nascimento espiritual operado pelo Espírito Santo',
     category: 'soteriology',
     level: 'intermediate'
@@ -194,6 +212,7 @@ export const theologicalTerms = [
   {
     english: 'Incarnation',
     portuguese: 'Encarnação',
+    transliteration: 'incarneishan',
     definition: 'Doutrina de que o Filho de Deus se tornou homem',
     category: 'christology',
     level: 'intermediate'
@@ -201,6 +220,7 @@ export const theologicalTerms = [
   {
     english: 'Atonement',
     portuguese: 'Expiação',
+    transliteration: 'atônment',
     definition: 'Obra de Cristo reconciliando Deus e a humanidade',
     category: 'christology',
     level: 'intermediate'
@@ -208,6 +228,7 @@ export const theologicalTerms = [
   {
     english: 'Eschatology',
     portuguese: 'Escatologia',
+    transliteration: 'eskátolôdji',
     definition: 'Estudo das últimas coisas',
     category: 'systematic_theology',
     level: 'advanced'
@@ -215,6 +236,7 @@ export const theologicalTerms = [
   {
     english: 'Pneumatology',
     portuguese: 'Pneumatologia',
+    transliteration: 'niumatólôdji',
     definition: 'Estudo da doutrina do Espírito Santo',
     category: 'systematic_theology',
     level: 'advanced'
