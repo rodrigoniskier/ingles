@@ -26,12 +26,33 @@ export const modules = [
           - TH: /θ/ (como em "theology" - teologia)
           - CH: /tʃ/ (como em "church" - igreja)
           - SH: /ʃ/ (como em "worship" - adoração)
+
+          A prática diária da fonologia auxilia na compreensão auditiva de sermões e palestras em inglês.
+          Pronunciar corretamente nomes e termos bíblicos melhora a leitura em voz alta e a memorização das Escrituras.
+
+          **Exemplo Prático:**
+          Leia em voz alta "Theology shapes our faith" (A teologia molda nossa fé) prestando atenção em cada som.
+
+          **Transliterações Simples:**
+          - "theology" -> "thi-ólô-dji"
+          - "church" -> "tchârtch"
+          - "worship" -> "uôr-ship"
         `,
         exercises: [
           {
             question: 'Como se pronuncia a palavra "theology"?',
             options: ['/θiˈɒlədʒi/', '/teˈɒlədʒi/', '/siˈɒlədʒi/', '/diˈɒlədʒi/'],
             correct: 0
+          },
+          {
+            question: 'Qual transliteração melhor representa a palavra "church"?',
+            options: ['tchârtch', 'chârch', 'kurts', 'xârch'],
+            correct: 0
+          },
+          {
+            question: 'Qual vogal possui o som /aɪ/?',
+            options: ['A', 'E', 'I', 'O'],
+            correct: 2
           }
         ]
       },
@@ -51,12 +72,31 @@ export const modules = [
           - **Scripture** (Escritura) - Texto sagrado
           - **Gospel** (Evangelho) - Boas novas de salvação
           - **Trinity** (Trindade) - Doutrina das três pessoas divinas
+
+          Esses termos aparecem constantemente em hinos e leituras devocionais. Forme frases simples para fixá-los:
+          - "God is love" (Deus é amor) - pronúncia: "gód iz lâv"
+          - "The church prays together" (A igreja ora junta) - pronúncia: "dâ tchârtch préiz togéder"
+
+          **Transliterações:**
+          - "God" -> "gód"
+          - "Bible" -> "bái-bol"
+          - "Faith" -> "feith"
         `,
         exercises: [
           {
             question: 'O que significa "grace" em português?',
             options: ['Graça', 'Glória', 'Gratidão', 'Grandeza'],
             correct: 0
+          },
+          {
+            question: 'Qual transliteração corresponde a "Bible"?',
+            options: ['bái-bol', 'béibol', 'bíbli', 'bai-bel'],
+            correct: 0
+          },
+          {
+            question: 'Complete: "The _____ is the Word of God"',
+            options: ['Church', 'Bible', 'Grace', 'Prayer'],
+            correct: 1
           }
         ]
       }
@@ -87,12 +127,34 @@ export const modules = [
           Usado para ações com relevância presente.
           - "God has revealed His will" (Deus revelou Sua vontade)
           - "Christ has redeemed us" (Cristo nos redimiu)
+
+          Estes tempos são essenciais para interpretar textos doutrinários. Observe como cada tempo verbal altera a ênfase teológica.
+
+          **Exemplos adicionais:**
+          - "We study theology because it helps us grow" (Estudamos teologia porque ela nos ajuda a crescer) - Present Simple
+          - "The prophets spoke about the coming Messiah" (Os profetas falaram sobre o Messias que viria) - Past Simple
+          - "Believers have received the Holy Spirit" (Os crentes receberam o Espírito Santo) - Present Perfect
+
+          **Transliterações chave:**
+          - "present" -> "pré-zent"
+          - "past" -> "pást"
+          - "perfect" -> "pér-fékt"
         `,
         exercises: [
           {
             question: 'Qual tempo verbal é usado em "God loves humanity"?',
             options: ['Present Simple', 'Past Simple', 'Present Perfect', 'Future Simple'],
             correct: 0
+          },
+          {
+            question: 'Qual frase está no Past Simple?',
+            options: ['Jesus dies for us', 'Jesus died for us', 'Jesus has died for us', 'Jesus will die for us'],
+            correct: 1
+          },
+          {
+            question: '"Christ has redeemed us" está em qual tempo verbal?',
+            options: ['Present Simple', 'Past Simple', 'Present Perfect', 'Future Perfect'],
+            correct: 2
           }
         ]
       }
@@ -122,12 +184,31 @@ export const modules = [
           - **Regeneration** (Regeneração) - Novo nascimento espiritual
           - **Adoption** (Adoção) - Tornar-se filho de Deus
           - **Glorification** (Glorificação) - Estado final de perfeição
+
+          Esses termos formam o núcleo do vocabulário acadêmico em teologia. Leia artigos curtos e sublinhe cada palavra ao encontrá-la.
+
+          **Exemplo de Uso:**
+          "God's omnipotence comforts believers" (A onipotência de Deus conforta os crentes).
+
+          **Transliterações:**
+          - "omnipotence" -> "óm-ni-pô-ten-ce"
+          - "sovereignty" -> "só-vre-rãn-ti"
         `,
         exercises: [
           {
             question: 'O que significa "justification"?',
             options: ['Santificação', 'Justificação', 'Glorificação', 'Regeneração'],
             correct: 1
+          },
+          {
+            question: 'Qual termo descreve a presença universal de Deus?',
+            options: ['Omnipresence', 'Immutability', 'Adoption', 'Justification'],
+            correct: 0
+          },
+          {
+            question: 'Escolha a transliteração correta de "sovereignty"',
+            options: ['só-vre-rãn-ti', 'so-vérên-ti', 'sóv-rein-ti', 'sovrên-ti'],
+            correct: 0
           }
         ]
       }
@@ -161,11 +242,31 @@ export const modules = [
           - Observe conectivos (however, therefore, moreover)
           - Identifique relações de causa e efeito
           - Use conhecimento teológico prévio
+
+          Praticar essas técnicas tornará sua leitura mais eficiente. Experimente combinar skimming e scanning em capítulos extensos.
+
+          **Exemplo Prático:**
+          Leia um comentário bíblico e destaque as palavras-chave enquanto faz scanning.
+
+          **Transliterações úteis:**
+          - "skimming" -> "ís-ki-ming"
+          - "scanning" -> "ís-ké-nin"
+          - "inference" -> "ín-fe-rens"
         `,
         exercises: [
           {
             question: 'Qual estratégia é melhor para encontrar uma citação específica?',
             options: ['Skimming', 'Scanning', 'Inferência', 'Leitura detalhada'],
+            correct: 1
+          },
+          {
+            question: '"Skimming" pode ser transliterado como:',
+            options: ['ís-ki-ming', 'és-ca-nin', 'ín-fe-rens', 'skiming'],
+            correct: 0
+          },
+          {
+            question: 'Quando precisamos localizar rapidamente uma data histórica, usamos:',
+            options: ['Inferência', 'Scanning', 'Skimming', 'Resumo'],
             correct: 1
           }
         ]
