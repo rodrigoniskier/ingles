@@ -42,7 +42,7 @@ const VocabularyCard = ({ word }) => {
         {/* Header */}
         <div className="flex items-start justify-between mb-3">
           <div className="flex-1">
-            <div className="flex items-center space-x-3 mb-2">
+            <div className="flex items-center space-x-3 mb-1">
               <h3 className="text-xl font-bold text-gray-800">{word.english}</h3>
               <button
                 onClick={() => speakWord(word.english)}
@@ -52,6 +52,11 @@ const VocabularyCard = ({ word }) => {
                 <Volume2 className="h-5 w-5" />
               </button>
             </div>
+            {word.transliteration && (
+              <p className="text-sm italic text-gray-600 mb-1">
+                {word.transliteration}
+              </p>
+            )}
             <p className="text-lg text-gray-600 font-medium">{word.portuguese}</p>
           </div>
           
