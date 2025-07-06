@@ -282,6 +282,7 @@ Contribuições são bem-vindas! Por favor, siga estas diretrizes:
 ### Padrões de Código
 
 - Use ESLint e Prettier para formatação
+- Antes de rodar `npm run lint`, instale as dependências de desenvolvimento com `npm install` ou `pnpm install` (você pode executar `./setup.sh` para automatizar essa etapa)
 - Siga convenções de nomenclatura React
 - Escreva testes para novas funcionalidades
 - Documente mudanças no README
