@@ -101,7 +101,7 @@ function HomePage() {
           </h1>
           <p className="text-xl text-gray-600 mb-8 leading-relaxed">
             Aprenda inglês instrumental focado na teologia reformada. Do alfabeto ao nível intermediário, 
-            com vocabulário bíblico e de autores reformados clássicos.
+            com vocabulário bíblico e de autores reformados clássicos. Desenvolvido por Rodrigo Niskier.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
