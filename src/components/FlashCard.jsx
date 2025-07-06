@@ -52,43 +52,43 @@ const FlashCard = ({ word, onNext, onPrevious, currentIndex, totalCards }) => {
 
       {/* Card */}
       <div className="relative h-80 mb-6">
-        <div 
-          className={`absolute inset-0 w-full h-full transition-transform duration-700 transform-style-preserve-3d cursor-pointer ${
-            isFlipped ? 'rotate-y-180' : ''
-          }`}
-          onClick={handleFlip}
-        >
-          {/* Front of card */}
-          <div className="absolute inset-0 w-full h-full backface-hidden bg-gradient-to-br from-amber-500 to-orange-600 rounded-xl shadow-lg flex flex-col justify-center items-center text-white p-6">
-            <BookOpen className="h-12 w-12 mb-4 opacity-80" />
-            <h2 className="text-3xl font-bold mb-2 text-center">{word.english}</h2>
-            <button
-              onClick={(e) => {
-                e.stopPropagation();
-                speakWord(word.english);
-              }}
-              className="flex items-center space-x-1 text-amber-100 hover:text-white transition-colors"
-            >
-              <Volume2 className="h-4 w-4" />
-              <span className="text-sm">Ouvir</span>
-            </button>
-            <p className="text-amber-100 text-center mt-4">Clique para ver a tradução</p>
-          </div>
+  <div
+    className={`absolute inset-0 w-full h-full transition-transform duration-700 transform-style-preserve-3d cursor-pointer ${
+      isFlipped ? 'rotate-y-180' : ''
+    }`}
+    onClick={handleFlip}
+  >
+    {/* Frente do cartão */}
+    <div className="absolute inset-0 w-full h-full backface-hidden bg-gradient-to-br from-amber-500 to-orange-600 rounded-xl shadow-lg flex flex-col justify-center items-center text-white p-6">
+      <BookOpen className="h-12 w-12 mb-4 opacity-80" />
+      <h2 className="text-3xl font-bold mb-2 text-center">{word.english}</h2>
+      <button
+        onClick={(e) => {
+          e.stopPropagation();
+          speakWord(word.english);
+        }}
+        className="flex items-center space-x-1 text-amber-100 hover:text-white transition-colors"
+      >
+        <Volume2 className="h-4 w-4" />
+        <span className="text-sm">Ouvir</span>
+      </button>
+      <p className="text-amber-100 text-center mt-4">Clique para ver a tradução</p>
+    </div>
 
-          {/* Back of card */}
-          <div className="absolute inset-0 w-full h-full backface-hidden rotate-y-180 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl shadow-lg flex flex-col justify-center items-center text-white p-6">
-            <Star className="h-12 w-12 mb-4 opacity-80" />
-            <h2 className="text-3xl font-bold mb-2 text-center">{word.portuguese}</h2>
-            <p className="text-blue-100 text-center text-sm mb-4">{word.definition}</p>
-            {word.examples && word.examples.length > 0 && (
-              <div className="text-center">
-                <p className="text-blue-200 text-xs mb-1">Exemplo:</p>
-                <p className="text-blue-100 text-sm italic">"{word.examples[0]}"</p>
-              </div>
-            )}
-          </div>
+    {/* Verso do cartão */}
+    <div className="absolute inset-0 w-full h-full backface-hidden rotate-y-180 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl shadow-lg flex flex-col justify-center items-center text-white p-6">
+      <Star className="h-12 w-12 mb-4 opacity-80" />
+      <h2 className="text-3xl font-bold mb-2 text-center">{word.portuguese}</h2>
+      <p className="text-blue-100 text-center text-sm mb-4">{word.definition}</p>
+      {word.examples && word.examples.length > 0 && (
+        <div className="text-center">
+          <p className="text-blue-200 text-xs mb-1">Exemplo:</p>
+          <p className="text-blue-100 text-sm italic">"{word.examples[0]}"</p>
         </div>
-      </div>
+      )}
+    </div>
+  </div>
+</div>
 
       {/* Difficulty buttons (only show when flipped) */}
       {isFlipped && (
